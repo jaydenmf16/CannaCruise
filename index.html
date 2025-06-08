@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CannaCruise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>CannaCruise</h1>
+    <p>Your weed-friendly ride, anytime, anywhere</p>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Ride Green with CannaCruise</h2>
+      <p>Safe, discreet, and cannabis-friendly rides at your fingertips.</p>
+      <button class="btn-primary" onclick="bookRide()">Book Your Ride</button>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>Why Choose CannaCruise?</h3>
+      <div class="info-grid">
+        <div class="info-card">
+          <h4>Weed-Friendly Drivers</h4>
+          <p>Our drivers respect your lifestyle and ensure a comfortable ride every time.</p>
+        </div>
+        <div class="info-card">
+          <h4>Discreet & Safe</h4>
+          <p>Privacy and safety are our top priorities — no judgment, just a smooth ride.</p>
+        </div>
+        <div class="info-card">
+          <h4>Easy Booking</h4>
+          <p>Use our app or website to quickly request a ride wherever you are.</p>
+        </div>
+        <div class="info-card">
+          <h4>Affordable Prices</h4>
+          <p>Competitive pricing that won’t burn a hole in your wallet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>How It Works</h3>
+      <div class="info-grid">
+        <div class="info-card">
+          <h4>Step 1</h4>
+          <p>Sign up and create your CannaCruise profile.</p>
+        </div>
+        <div class="info-card">
+          <h4>Step 2</h4>
+          <p>Enter your pickup location and destination.</p>
+        </div>
+        <div class="info-card">
+          <h4>Step 3</h4>
+          <p>Choose your ride and confirm your booking.</p>
+        </div>
+        <div class="info-card">
+          <h4>Step 4</h4>
+          <p>Enjoy a safe and discreet ride with our cannabis-friendly drivers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h3>Contact Us</h3>
+      <form onsubmit="handleSubmit(event)">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CannaCruise. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
